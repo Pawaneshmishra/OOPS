@@ -1,4 +1,3 @@
-/*WAP to show the effect of default arguments can be alternatively achieved by overloading.*/
 
 #include<iostream>
 #include<cmath>
