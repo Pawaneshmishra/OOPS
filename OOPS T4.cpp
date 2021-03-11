@@ -3,24 +3,24 @@
 #include<cmath>
 using namespace std;
 
-float power(float x)                                //Power with 1 parameter
+float power(double x)                                //Power with 1 parameter
 {
-    return pow(x,2);
+    return (float)pow(x,2);
 }
 
-float power(float x,float y)                        //Power with 2 parameter
+float power(double x,double y)                        //Power with 2 parameter
 {
-    return pow(x,y);
+    return (float)pow(x,y);
 }
 
-void display(float data)                           //Display Function
+void display(double data)                           //Display Function
 {
     cout<<data<<endl;
 }
 
 int main()                                         //Main Function
 {
-    float a,b,i,j;
+    double a,b,i,j;
     cout<<"Enter Two number:"<<endl;
     cin>>a>>b;
 
