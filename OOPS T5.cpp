@@ -68,7 +68,7 @@ int main()                                                          //Main Funct
     cout<<"--*--*--*--*--";
 
     ac_num=(rand()% 9000000 + 1000000);                           //Generating acc. and balance
-    balance=rand();
+    balance=rand()% 9000 + 1000;
 
     cout<<"\nYour account number is : "<<ac_num;
     cout<<"\nYour balance is : "<<balance;
