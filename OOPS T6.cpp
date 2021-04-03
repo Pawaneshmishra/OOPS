@@ -53,7 +53,8 @@ int main()                                                    //Main Function
 
    while(1)
    {
-       cout<<"\n1. Store The String. \n2. Add Strings. \n3. Equate String. \n4. Output Strings. \n5. Exit\n";
+       cout<<"\n1. Store The String. \n2. Add Strings. \n";
+       cout<<"3. Equate String. \n4. Output Strings. \n5. Exit\n";
        cout<<"Enter Your Choice : ";
        cin>>choice;
 
